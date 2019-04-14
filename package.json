@@ -1,0 +1,17 @@
+{
+  "name": "postyourcatch",
+  "version": "1.0.0",
+  "description": "A website for anglers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamzah Amer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.3",
+    "path": "^0.12.7",
+    "save": "^2.3.3"
+  }
+}
