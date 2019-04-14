@@ -12,13 +12,18 @@ app.use(express.static(path.join(__dirname,'/public')));
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, '/views'));
 
-
+//partials directory
+hbs.registerPartials(path.join(__dirname, '/partials'));
 
 // Routes
 app.get('/', (req, res)=>{
     res.render('index');
 });
 
+
+app.get('/home',(req, res)=>{
+    res.render('home');
+});
 
 
 
