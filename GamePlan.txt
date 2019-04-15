@@ -25,3 +25,13 @@ if they click on it
 
 
 #1fcf6d I like this color 
+
+
+!Important idea about posting pictures.
+
+1.)User uploads image
+2.) query string is sent
+3.) convert query string to base 64 URi
+4.) Store in Json data 
+
+5.) have all json data images load on start up
